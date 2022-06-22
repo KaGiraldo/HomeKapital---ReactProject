@@ -29,3 +29,6 @@
 .flex__container{
   overflow-x: hidden !important;
 }
+.section{
+  max-height: 72%;
+}

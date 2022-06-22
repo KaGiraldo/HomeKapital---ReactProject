@@ -1,7 +1,8 @@
 import React, { } from "react";
 import Title from '../../../commons/Title';
 import Navbar from '../../../commons/Navbar';
-// import {Link} from 'react-router-dom';
+import Section from './portafolio__section'
+import {Link} from 'react-router-dom';
 
 const product = () => {
 
@@ -10,11 +11,11 @@ const product = () => {
         <div className="container-fluid h-100 p-0 bg-white">
             <Navbar />
             <Title text="PORTFOLIO LOAN PL-000"/>
-            <div className=" p-4  overflow-auto">
-
-
-          
-            </div>
+                <Section />
+                <Link to="/home/transactions" className="d-grid w-100 p-3">
+                    <button className="btn btn-primary w-100 h-10 p-3" type="button">TRANSACTIONS</button>
+                </Link>
+               
         </div>
     </div>
      
