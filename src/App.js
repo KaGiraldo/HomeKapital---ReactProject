@@ -6,6 +6,13 @@ import Documentation from './pages/home/documentation/documentation';
 import PortfolioDoc from './pages/home/portfoliodoc/portfolio';
 import DocView from './pages/home/documentation/docView';
 import Transactions from'./pages/home/portfoliodoc/transactions';
+import Recovery from'./pages/recovery/recovery';
+import RecoveryDone from'./pages/recovery/recoveryDone';
+import Reset from'./pages/recovery/resetPass';
+import Verify from'./pages/recovery/verify';
+
+
+
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 
 function App() {
@@ -19,8 +26,10 @@ function App() {
          <Route path="/documentation/docview" element={<DocView />}/>
          <Route path="/home/portfoliodoc" element={<PortfolioDoc />}/>
          <Route path="/home/transactions" element={<Transactions />}/>
-
-         
+         <Route path="/recovery" element={<Recovery />}/>
+         <Route path="/recoveryDone" element={<RecoveryDone />}/>
+         <Route path="/reset" element={<Reset />}/>
+         <Route path="/verify" element={<Verify />}/>
 
         </Routes>
     </Router>

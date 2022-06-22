@@ -12,7 +12,7 @@ const product = () => {
         <div className="container-fluid h-100 p-0 bg-white flex__container">
             <Navbar />
             <Title text="DOCUMENTATION "subtext="Portfolio Loan " mintext="PL-000"/>
-            <div className=" p-3  overflow-auto d-flex flex-column justify-content-start align-items-center flex__container">
+            <div className=" p-3  overflow-auto d-flex flex-column justify-content-start align-items-center flex__container h-75">
                 <Title_light  text="Client Documents "/>
                 <MinCard cardTitle="Lender’s Application Form" cardInfo="00-00-0000"/>
                 <MinCard cardTitle="Lender’s Bank Info" cardInfo="00-00-0000"/>

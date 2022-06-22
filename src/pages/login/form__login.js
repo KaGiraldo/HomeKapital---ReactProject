@@ -65,7 +65,13 @@ const LoginForm = () => {
                     </button>
                 </Link>
 
-                <a href="../"> Forgot your password?</a>
+                <Link to="/recovery" className="form__input">
+                <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal">
+                    <a href="#"> Forgot your password?</a>
+                </button>
+                </Link>
+        
+            
 
             </form>
         </div>

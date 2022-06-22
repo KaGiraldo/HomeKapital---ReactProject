@@ -9,7 +9,6 @@ const LabelInput = ({ attribute, handleChange, param }) => {
                 id={attribute.id}
                 type={attribute.inputType} 
                 name={attribute.inpName}
-                onChange={ (e) => handleChange(e.target.name, e.target.value)}
                 className="form__input-cont text-center"
              ></input>
         </div>

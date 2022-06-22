@@ -7,7 +7,7 @@ import Section from './home_main/home_main'
 class home extends Component{
     render(){
         return(    
-            <div className="container fluid h-100 w-100 bg-white">
+            <div className="container-fluid h-100 w-100 bg-white">
                 <Navbar />
                 <BigTitle text_h1 = "Welcome" text_span="Mango Soft Inc"/>
                 <Title text="Your products"/>

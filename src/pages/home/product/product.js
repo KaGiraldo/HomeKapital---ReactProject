@@ -11,7 +11,7 @@ const product = () => {
         <div className="container-fluid h-100 p-0 bg-white">
             <Navbar />
             <Title text="PORTFOLIO LOAN"/>
-            <div className=" p-4  overflow-auto">
+            <div className="h-75 p-4  overflow-auto">
                 <ProdCard />
                 <ProdCard />
                 <ProdCard />
