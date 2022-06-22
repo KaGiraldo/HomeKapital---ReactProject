@@ -17,7 +17,7 @@ class navbar extends Component{
                     </Link>
                     <img src={Logo} alt="Company Logo" className="img-fluid"></img>
                     <Link to="/" className="">
-                        <FontAwesomeIcon icon={icon1} className="h1 pt-2"/>
+                        <FontAwesomeIcon icon={icon1} className="text-white"/>
                     </Link>
 
                 </div>

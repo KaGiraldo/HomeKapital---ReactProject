@@ -1,8 +1,9 @@
 import React from "react";
 import LightTitle from '../../commons/Title_light';
-import Navbar from '../../commons/Navbar_home.js';
+import Navbar from '../../commons/NavbarEmpty';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUserShield as icon} from  '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-router-dom';
 
 function verify(){
   
@@ -20,8 +21,10 @@ function verify(){
                              <LightTitle text="Security Verification" subtext="We have sent a 6 digits security code to your phone number" mintext=" ** ** 3333"/>
                         </div>
                         <LightTitle subtext="Click on the link bellow:" className="text-black"/>
-                        <input className="btn border border-primary w-75 p-3 text-primary" type="text" placeholder="9 9 9 9 9 9"></input>
-                        <button className="btn btn-primary w-75 p-3">VERIFY</button>
+                        <input className="btn border border-primary w-75 p-3 text-primary" type="number" placeholder="9 9 9 9 9 9"></input>
+                        <Link to="/" className="btn btn-primary w-75 p-3">
+                        VERIFY
+                        </Link>
                         <button className="btn border border-primary text-primary w-75 p-3">RESEND CODE</button>
                     </div>
                 </div>

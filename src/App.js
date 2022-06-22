@@ -10,7 +10,7 @@ import Recovery from'./pages/recovery/recovery';
 import RecoveryDone from'./pages/recovery/recoveryDone';
 import Reset from'./pages/recovery/resetPass';
 import Verify from'./pages/recovery/verify';
-
+import SetPass from './pages/recovery/setPass';
 
 
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
@@ -18,7 +18,7 @@ import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 function App() {
   return (
     <Router>
-        <Routes>
+      <Routes>
          <Route path="/" element={<Login />}/>
          <Route path="/home" element={<Home />}/>
          <Route path="/home/product" element={<Product />}/>
@@ -30,8 +30,8 @@ function App() {
          <Route path="/recoveryDone" element={<RecoveryDone />}/>
          <Route path="/reset" element={<Reset />}/>
          <Route path="/verify" element={<Verify />}/>
-
-        </Routes>
+         <Route path="/setpass" element={<SetPass />}/>
+      </Routes>
     </Router>
   );
 }
